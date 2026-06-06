@@ -1,13 +1,13 @@
 {
-  "name": "ScanAgri Météo",
-  "short_name": "ScanAgri",
+  "name": "MétéoScan Pro",
+  "short_name": "MétéoScan",
   "description": "Météo agricole intelligente — prévisions, cultures, radar et tendances saisonnières",
   "icons": [
     { "src": "logo.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
     { "src": "logo.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
   ],
-  "start_url": "/ScanAgri-Meteo/",
-  "scope": "/ScanAgri-Meteo/",
+  "start_url": "/MeteoScan-Pro/",
+  "scope": "/MeteoScan-Pro/",
   "display": "standalone",
   "orientation": "portrait",
   "background_color": "#0c130c",
