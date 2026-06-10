@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MétéoScan Pro — Politique de confidentialité</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #0c130c; color: #e2e8e2; line-height: 1.7; }
+  .header { background: #0f1f0f; border-bottom: 1px solid #1e3a1e; padding: 20px 24px; display: flex; align-items: center; gap: 12px; }
+  .header img { width: 40px; height: 40px; border-radius: 10px; }
+  .header-text h1 { font-size: 18px; font-weight: 700; color: #e2e8e2; }
+  .header-text p { font-size: 12px; color: #6b8f6b; }
+  .lang-bar { background: #0f1f0f; border-bottom: 1px solid #1e3a1e; padding: 10px 24px; display: flex; gap: 8px; }
+  .lang-btn { background: none; border: 1px solid #2d4a2d; border-radius: 20px; padding: 4px 14px; font-size: 12px; font-weight: 600; color: #6b8f6b; cursor: pointer; transition: all .2s; }
+  .lang-btn.active { background: #2d6a2d; border-color: #2d6a2d; color: #fff; }
+  .content { max-width: 700px; margin: 0 auto; padding: 32px 24px 60px; }
+  h2 { font-size: 22px; font-weight: 700; color: #4ade80; margin-bottom: 24px; }
+  h3 { font-size: 15px; font-weight: 700; color: #e2e8e2; margin: 24px 0 8px; }
+  p { font-size: 14px; color: #a0b8a0; margin-bottom: 12px; }
+  a { color: #4ade80; text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  .badge { display: inline-block; background: #1a3a1a; border: 1px solid #2d5a2d; border-radius: 6px; padding: 2px 8px; font-size: 11px; color: #4ade80; margin-bottom: 16px; }
+  .section { display: none; }
+  .section.active { display: block; }
+  ul { padding-left: 20px; color: #a0b8a0; font-size: 14px; }
+  ul li { margin-bottom: 6px; }
+  strong { color: #e2e8e2; }
+  .footer { text-align: center; padding: 24px; font-size: 12px; color: #4a6a4a; border-top: 1px solid #1e3a1e; }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <img src="logo.png" alt="MétéoScan Pro" onerror="this.style.display='none'">
+  <div class="header-text">
+    <h1>MétéoScan Pro</h1>
+    <p>V3.8 — Agrilium</p>
+  </div>
+</div>
+
+<div class="lang-bar">
+  <button class="lang-btn active" onclick="setLang('fr')">Français</button>
+  <button class="lang-btn" onclick="setLang('en')">English</button>
+  <button class="lang-btn" onclick="setLang('es')">Español</button>
+</div>
+
+<div class="content">
+
+  <!-- FRANÇAIS -->
+  <div class="section active" id="s-fr">
+    <h2>Politique de confidentialité</h2>
+    <span class="badge">Agrilium — SIRET 10595610600014</span>
+
+    <h3>1. Données collectées</h3>
+    <p>MétéoScan Pro collecte uniquement :</p>
+    <ul>
+      <li><strong>Localisation GPS</strong> — utilisée uniquement pour obtenir les données météo locales. Non stockée sur nos serveurs.</li>
+      <li><strong>Préférences utilisateur</strong> (langue, lieux favoris) — stockées localement sur votre appareil.</li>
+      <li><strong>Permission de notifications</strong> (optionnelle) — stockée localement sur votre appareil.</li>
+    </ul>
+
+    <h3>2. Données non collectées</h3>
+    <p>Nous ne collectons pas : nom, prénom, adresse email, données bancaires, données de navigation, cookies de tracking ou toute autre donnée personnelle identifiante.</p>
+    <p>Les notifications sont générées localement sur votre appareil. Aucune donnée n'est envoyée à un serveur externe pour les déclencher.</p>
+
+    <h3>3. Services tiers</h3>
+    <p><strong>Open-Meteo</strong> (open-meteo.com) reçoit vos coordonnées GPS pour fournir les données météorologiques. Politique de confidentialité : <a href="https://open-meteo.com/en/terms" target="_blank">open-meteo.com/en/terms</a></p>
+
+    <h3>4. Vos droits (RGPD)</h3>
+    <p>Conformément au Règlement Général sur la Protection des Données (RGPD), vous disposez d'un droit d'accès, de rectification et de suppression de vos données.</p>
+    <p>Contact : <a href="mailto:contact.agrilium@yahoo.com">contact.agrilium@yahoo.com</a></p>
+
+    <h3>5. Responsable du traitement</h3>
+    <p>Thibaut Lafon — Agrilium<br>
+    SIRET 10595610600014<br>
+    Occitanie, France<br>
+    <a href="mailto:contact.agrilium@yahoo.com">contact.agrilium@yahoo.com</a></p>
+
+    <h3>6. Modifications</h3>
+    <p>Cette politique peut être mise à jour lors de nouvelles versions de l'application. La version en vigueur est toujours accessible à cette adresse.</p>
+  </div>
+
+  <!-- ENGLISH -->
+  <div class="section" id="s-en">
+    <h2>Privacy Policy</h2>
+    <span class="badge">Agrilium — SIRET 10595610600014</span>
+
+    <h3>1. Data collected</h3>
+    <p>MétéoScan Pro only collects:</p>
+    <ul>
+      <li><strong>GPS location</strong> — used solely to retrieve local weather data. Not stored on our servers.</li>
+      <li><strong>User preferences</strong> (language, favourite locations) — stored locally on your device.</li>
+      <li><strong>Notification permission</strong> (optional) — stored locally on your device.</li>
+    </ul>
+
+    <h3>2. Data not collected</h3>
+    <p>We do not collect: name, email address, payment data, browsing data, tracking cookies or any other personally identifying data.</p>
+    <p>Notifications are generated locally on your device. No data is sent to an external server to trigger them.</p>
+
+    <h3>3. Third-party services</h3>
+    <p><strong>Open-Meteo</strong> (open-meteo.com) receives your GPS coordinates to provide weather data. Privacy policy: <a href="https://open-meteo.com/en/terms" target="_blank">open-meteo.com/en/terms</a></p>
+
+    <h3>4. Your rights (GDPR)</h3>
+    <p>Under the General Data Protection Regulation (GDPR), you have the right to access, rectify and delete your data.</p>
+    <p>Contact: <a href="mailto:contact.agrilium@yahoo.com">contact.agrilium@yahoo.com</a></p>
+
+    <h3>5. Data controller</h3>
+    <p>Thibaut Lafon — Agrilium<br>
+    SIRET 10595610600014<br>
+    Occitanie, France<br>
+    <a href="mailto:contact.agrilium@yahoo.com">contact.agrilium@yahoo.com</a></p>
+
+    <h3>6. Changes</h3>
+    <p>This policy may be updated with new versions of the application. The current version is always available at this address.</p>
+  </div>
+
+  <!-- ESPAÑOL -->
+  <div class="section" id="s-es">
+    <h2>Política de Privacidad</h2>
+    <span class="badge">Agrilium — SIRET 10595610600014</span>
+
+    <h3>1. Datos recopilados</h3>
+    <p>MétéoScan Pro solo recopila:</p>
+    <ul>
+      <li><strong>Ubicación GPS</strong> — usada únicamente para obtener datos meteorológicos locales. No almacenada en nuestros servidores.</li>
+      <li><strong>Preferencias del usuario</strong> (idioma, ubicaciones favoritas) — almacenadas localmente en su dispositivo.</li>
+      <li><strong>Permiso de notificaciones</strong> (opcional) — almacenado localmente en su dispositivo.</li>
+    </ul>
+
+    <h3>2. Datos no recopilados</h3>
+    <p>No recopilamos: nombre, correo electrónico, datos bancarios, datos de navegación, cookies de seguimiento ni ningún otro dato personal identificativo.</p>
+    <p>Las notificaciones se generan localmente en su dispositivo. No se envían datos a un servidor externo para activarlas.</p>
+
+    <h3>3. Servicios de terceros</h3>
+    <p><strong>Open-Meteo</strong> (open-meteo.com) recibe sus coordenadas GPS para proporcionar datos meteorológicos. Política de privacidad: <a href="https://open-meteo.com/en/terms" target="_blank">open-meteo.com/en/terms</a></p>
+
+    <h3>4. Sus derechos (RGPD)</h3>
+    <p>De conformidad con el Reglamento General de Protección de Datos (RGPD), tiene derecho de acceso, rectificación y supresión de sus datos.</p>
+    <p>Contacto: <a href="mailto:contact.agrilium@yahoo.com">contact.agrilium@yahoo.com</a></p>
+
+    <h3>5. Responsable del tratamiento</h3>
+    <p>Thibaut Lafon — Agrilium<br>
+    SIRET 10595610600014<br>
+    Occitania, Francia<br>
+    <a href="mailto:contact.agrilium@yahoo.com">contact.agrilium@yahoo.com</a></p>
+
+    <h3>6. Modificaciones</h3>
+    <p>Esta política puede actualizarse con nuevas versiones de la aplicación. La versión vigente siempre está disponible en esta dirección.</p>
+  </div>
+
+</div>
+
+<div class="footer">
+  © 2026 Agrilium — Thibaut Lafon · <a href="https://tibix.github.io/MeteoScan-Pro/">tibix.github.io/MeteoScan-Pro</a>
+</div>
+
+<script>
+function setLang(lang) {
+  document.querySelectorAll('.section').forEach(s => s.classList.remove('active'));
+  document.querySelectorAll('.lang-btn').forEach(b => b.classList.remove('active'));
+  document.getElementById('s-' + lang).classList.add('active');
+  event.target.classList.add('active');
+}
+</script>
+
+</body>
+</html>
