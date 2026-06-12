@@ -2,9 +2,19 @@
   "name": "MétéoScan Pro",
   "short_name": "MétéoScan",
   "description": "Météo agricole intelligente — prévisions, cultures, radar et tendances saisonnières",
+  "id": "com.agrilium.meteoscanpro",
   "icons": [
     { "src": "logo.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
-    { "src": "logo.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+    { "src": "logo-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ],
+  "screenshots": [
+    { "src": "screenshots/meteo01.jpeg", "sizes": "1008x2048", "type": "image/jpeg", "form_factor": "narrow" },
+    { "src": "screenshots/meteo02.jpeg", "sizes": "1008x2048", "type": "image/jpeg", "form_factor": "narrow" },
+    { "src": "screenshots/meteo03.jpeg", "sizes": "1008x2048", "type": "image/jpeg", "form_factor": "narrow" },
+    { "src": "screenshots/meteo04.jpeg", "sizes": "1008x2048", "type": "image/jpeg", "form_factor": "narrow" },
+    { "src": "screenshots/meteo06.jpeg", "sizes": "1008x2048", "type": "image/jpeg", "form_factor": "narrow" },
+    { "src": "screenshots/meteo07.jpeg", "sizes": "1008x2048", "type": "image/jpeg", "form_factor": "narrow" },
+    { "src": "screenshots/meteo08.jpeg", "sizes": "1008x2048", "type": "image/jpeg", "form_factor": "narrow" }
   ],
   "start_url": "/MeteoScan-Pro/",
   "scope": "/MeteoScan-Pro/",
