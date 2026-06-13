@@ -1,0 +1,8 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.agrilium.meteoscanpro",
+    "sha256_cert_fingerprints": ["21:E5:58:40:40:63:DF:64:6A:BE:78:39:E0:5E:76:2D:0F:04:0E:B1:16:E7:9E:6F:D6:01:63:50:45:C5:3E:15"]
+  }
+}]
