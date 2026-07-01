@@ -1,8 +1,14 @@
-[{
-  "relation": ["delegate_permission/common.handle_all_urls"],
-  "target": {
-    "namespace": "android_app",
-    "package_name": "com.agrilium.meteoscanpro",
-    "sha256_cert_fingerprints": ["21:E5:58:40:40:63:DF:64:6A:BE:78:39:E0:5E:76:2D:0F:04:0E:B1:16:E7:9E:6F:D6:01:63:50:45:C5:3E:15"]
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.agrilium.meteoscanpro",
+      "sha256_cert_fingerprints": [
+        "3A:DA:9F:80:4B:96:41:A8:25:09:35:82:B6:D0:09:90:9A:EB:F4:E3:57:3C:FF:E2:72:14:11:0D:8E:D3:F2:39"
+      ]
+    }
   }
-}]
+]
